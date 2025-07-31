@@ -2,3 +2,8 @@
 .idea/ 
 db.sqlite3 
 __pycache__/ 
+
+#파이참
+
+.idea/
+migrations/
