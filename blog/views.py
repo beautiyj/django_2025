@@ -23,7 +23,7 @@ def index(request):
                       'posts': posts,
                   })
 
-def single_post(request, pk):
+def single_pages(request, pk):
     post = Post.objects.get(pk=pk)
 
     return render(request, 'blog/index.html',
